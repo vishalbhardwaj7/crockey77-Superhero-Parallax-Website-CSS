@@ -1,0 +1,80 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+@media (max-width: 568px) .pimg1, .pimg2, .pimg3 {
+  background-attachment: scroll;
+}
+.pimg1 {
+  background-image: url("./images/spiderman.jpg");
+  min-height: 100%;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-weight: bolder;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.pimg2 {
+  background-image: url("./images/image2.jpg");
+  min-height: 400px;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext .border.trans {
+  background-color: transparent;
+}
+.pimg3 {
+  background-image: url("./images/gOt.jpg");
+  min-height: 400px;
+}
+.pimg4 {
+  background-image: url("./images/breaking\ bad.jpg");
+  min-height: 100%;
+}
+.pimg5 {
+  background-image: url("./images/stranger.jpg");
+  min-height: 100%;
+}
+a {
+  text-decoration: none;
+  color: #ddd;
+}
